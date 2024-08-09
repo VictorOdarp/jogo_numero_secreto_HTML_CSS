@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do número secreto</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-login">
+            <h1>Jogo do número secreto</h1>
+            <br>
+            <p>Escolha um número de 1 a 10</p>
+            <input type="number" class="valor" type="Login" name="login">
+            <div>
+                <button onclick="verificarChute()">Chutar</button>
+                <button onclick="resetarJogo()" id="reset" disabled>Novo Jogo</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
